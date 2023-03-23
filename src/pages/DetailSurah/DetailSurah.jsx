@@ -32,7 +32,7 @@ const DetailSurah = () => {
       return (
         <div className="ayat bg-white px-4 rounded-lg flex flex-col gap-3 py-5 border-2 border-primary" key={index}>
           <div className="relative w-10  flex justify-center items-center">
-            <img src="../../public/image/number.png" alt="" className="absolute" />
+            <img src="https://i.ibb.co/RC0C8r2/number.png" alt="" className="absolute" />
             <p className="text-sm">{nomor}</p>
           </div>
           <div id="ayat" className="text-end">
@@ -59,7 +59,7 @@ const DetailSurah = () => {
           <p className="flex items-center justify-center">
             {tempat_turun} <BsDot /> {jumlah_ayat}
           </p>
-          <img src="/public/image/Vector (2).png" alt="" className="m-auto mt-5 w-56"/>
+          <img src="https://i.ibb.co/30Cq240/Vector-2.png" alt="" className="m-auto mt-5 w-56"/>
         </div>
         <div className="flex flex-col gap-2 mx-4 ">
           <>{mapAyat}</>
