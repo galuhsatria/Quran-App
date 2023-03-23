@@ -10,8 +10,8 @@ const Header = () => {
         <Search />
         <div className="flex gap-2 justify-center pb-4">
         <Link to={`/surah/36`} className="bg-white font-semibold px-3  py-2 rounded-full">Yasin</Link>
-        <Link to={`/surah/40`} className="bg-white font-semibold px-3  py-2 rounded-full">An-Naba</Link>
-        <Link to={`/surah/78`} className="bg-white font-semibold px-3  py-2 rounded-full">Ar-Rahman</Link>
+        <Link to={`/surah/78`} className="bg-white font-semibold px-3  py-2 rounded-full">An-Naba</Link>
+        <Link to={`/surah/55`} className="bg-white font-semibold px-3  py-2 rounded-full">Ar-Rahman</Link>
         </div>
       </div>
     </div>
