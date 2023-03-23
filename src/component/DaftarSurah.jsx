@@ -29,7 +29,7 @@ const DaftarSurah = () => {
               <Link key={index} className="flex bg-white mx-2 my-2  h-20 gap-3 items-center justify-between px-3 py-1 rounded-md" style={{ border:"0.1px solid #5AC3AB" }} to={`/surah/${nomor}`}>
                 <div className="flex gap-3">
                   <div className="relative w-10  flex justify-center items-center">
-                    <img src="../../public/image/number.png" alt="" className="absolute" />
+                    <img src="https://i.ibb.co/RC0C8r2/number.png" alt="" className="absolute" />
                     <p className="text-sm">{nomor}</p>
                   </div>
                   <div>
