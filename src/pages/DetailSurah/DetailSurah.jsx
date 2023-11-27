@@ -30,7 +30,7 @@ const DetailSurah = () => {
   if (ayat) {
     mapAyat = ayat.map((ayat,index) => {
       return (
-        <div className="ayat bg-white px-4 rounded-lg flex flex-col gap-3 py-5 border-2 border-primary" key={index}>
+        <div className="ayat bg-white px-4 rounded-lg flex flex-col gap-3 py-5 border" key={index}>
           <div className="relative w-10  flex justify-center items-center">
             <img src="https://i.ibb.co/RC0C8r2/number.png" alt="" className="absolute" />
             <p className="text-sm">{nomor}</p>

@@ -59,7 +59,7 @@ const Search = () => {
                   return (
                     <Link to={`/surah/${surah.nomor}`} className="flex gap-3 mt-5" style={{ cursor: "pointer" }} key={index}>
                       <div className="relative w-10  flex justify-center items-center">
-                        <img src="../../public/image/number.png" alt="" className="absolute" />
+                        <img src="https://i.ibb.co/RC0C8r2/number.png" alt="" className="absolute" />
                         <p className="text-sm">{surah.nomor}</p>
                       </div>
                       <div>
